@@ -3,9 +3,10 @@
   "org": "Web-Design-For-Law-Firms",
   "brand": "Web Design for Law Firms",
   "slug": "legal-content-review-register",
-  "title": "Legal Content Review Register",
+  "title": "Law Firm Website Brief Builder",
   "profile": "Law firm websites with clear practice information and editorial responsibilities. Operated by JW Digital Services Ltd.",
-  "accent": "#483155",
-  "tint": "#f2ecf5",
-  "summary": "Track website content owners, reviewer sign-off and review dates for a legal practice."
+  "accent": "#a18450",
+  "tint": "#eae1cf",
+  "summary": "Bring your practice areas, client needs and enquiry process into a concise website brief.",
+  "brandMark": "<svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M24 4v39M8 43h32M8 13h32M10 14 3 29h14Zm28 0-7 15h14Z\"/></svg>"
 }

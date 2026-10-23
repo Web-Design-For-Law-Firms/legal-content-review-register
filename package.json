@@ -1,7 +1,7 @@
 {
   "name": "legal-content-review-register",
-  "version": "0.1.0",
-  "description": "Track website content owners, reviewer sign-off and review dates for a legal practice.",
+  "version": "0.2.0",
+  "description": "Bring your practice areas, client needs and enquiry process into a concise website brief.",
   "type": "module",
   "private": false,
   "license": "MIT",
