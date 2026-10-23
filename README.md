@@ -6,6 +6,10 @@ It supports editorial work rather than assessing legal or regulatory compliance.
 
 ![Complete example](docs/preview.png)
 
+## Live demo
+
+[Try Legal Content Review Register](https://web-design-for-law-firms.github.io/legal-content-review-register/). The demo runs in your browser; entered data is not uploaded by the tool. GitHub provides the hosting and handles request logs.
+
 ## Start locally
 
 Requires Node.js 22 or later. No runtime dependencies or account required.
