@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal Content Review Register example structure",
+  "description": "Structural guide to the supplied example. Runtime validation enforces supported states, publication gates and cross-field rules.",
+  "type": "object",
+  "properties": {
+    "practice": {
+      "type": "string"
+    },
+    "asOf": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page_id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "content_type": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "last_reviewed": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "next_review_due": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "content_version": {
+            "type": "string"
+          },
+          "reviewed_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "source_note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "page_id",
+          "url",
+          "content_type",
+          "owner",
+          "reviewer",
+          "last_reviewed",
+          "next_review_due",
+          "status",
+          "content_version",
+          "reviewed_version",
+          "source_note"
+        ]
+      }
+    }
+  },
+  "required": [
+    "practice",
+    "asOf",
+    "pages"
+  ]
+}

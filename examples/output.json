@@ -1,0 +1,108 @@
+{
+  "title": "Example Legal / fictional practice editorial review queue",
+  "summary": "Internal editorial record as of 2026-10-23. Review status does not assess legal or regulatory compliance.",
+  "pages": [
+    {
+      "page_id": "practice-a",
+      "url": "/practice-a",
+      "content_type": "Practice area",
+      "owner": "Editor A",
+      "reviewer": "Reviewer A",
+      "last_reviewed": "2026-08-01",
+      "next_review_due": "2026-10-01",
+      "status": "approved",
+      "content_version": "2",
+      "reviewed_version": "2",
+      "source_note": "Approved scope notes",
+      "state": "review overdue"
+    },
+    {
+      "page_id": "practice-b",
+      "url": "/practice-b",
+      "content_type": "Practice area",
+      "owner": "Editor B",
+      "reviewer": "Reviewer B",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "3",
+      "reviewed_version": "2",
+      "source_note": "Changed content needs review",
+      "state": "changed since approval"
+    },
+    {
+      "page_id": "person-a",
+      "url": "/people/a",
+      "content_type": "Team profile",
+      "owner": "Editor A",
+      "reviewer": "",
+      "last_reviewed": null,
+      "next_review_due": null,
+      "status": "draft",
+      "content_version": "1",
+      "reviewed_version": null,
+      "source_note": "Synthetic profile",
+      "state": "draft"
+    },
+    {
+      "page_id": "person-b",
+      "url": "/people/b",
+      "content_type": "Team profile",
+      "owner": "Editor B",
+      "reviewer": "Reviewer B",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "1",
+      "reviewed_version": "1",
+      "source_note": "Synthetic profile",
+      "state": "approved"
+    },
+    {
+      "page_id": "fees",
+      "url": "/fees",
+      "content_type": "Fee explanation",
+      "owner": "Editor A",
+      "reviewer": "",
+      "last_reviewed": null,
+      "next_review_due": "2026-11-01",
+      "status": "awaiting review",
+      "content_version": "1",
+      "reviewed_version": null,
+      "source_note": "Practice approval required",
+      "state": "awaiting review"
+    },
+    {
+      "page_id": "contact",
+      "url": "/contact",
+      "content_type": "Contact information",
+      "owner": "Editor A",
+      "reviewer": "Reviewer A",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "1",
+      "reviewed_version": "1",
+      "source_note": "Approved contact record",
+      "state": "approved"
+    }
+  ],
+  "issues": [
+    {
+      "code": "overdue",
+      "message": "Scheduled editorial review is overdue",
+      "source": "practice-a"
+    },
+    {
+      "code": "changed",
+      "message": "Current version needs a new review",
+      "source": "practice-b"
+    },
+    {
+      "code": "date",
+      "message": "Assign the next review date",
+      "source": "person-a"
+    }
+  ],
+  "markdown": "- practice-a: review overdue; owner Editor A; next check 2026-10-01\n- practice-b: changed since approval; owner Editor B; next check 2027-01-01\n- person-a: draft; owner Editor A; next check Unscheduled\n- person-b: approved; owner Editor B; next check 2027-01-01\n- fees: awaiting review; owner Editor A; next check 2026-11-01\n- contact: approved; owner Editor A; next check 2027-01-01"
+}

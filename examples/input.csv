@@ -1,0 +1,7 @@
+"page_id","url","content_type","owner","reviewer","last_reviewed","next_review_due","status","content_version","reviewed_version","source_note"
+"practice-a","/practice-a","Practice area","Editor A","Reviewer A","2026-08-01","2026-10-01","approved","2","2","Approved scope notes"
+"practice-b","/practice-b","Practice area","Editor B","Reviewer B","2026-10-01","2027-01-01","approved","3","2","Changed content needs review"
+"person-a","/people/a","Team profile","Editor A","","","","draft","1","","Synthetic profile"
+"person-b","/people/b","Team profile","Editor B","Reviewer B","2026-10-01","2027-01-01","approved","1","1","Synthetic profile"
+"fees","/fees","Fee explanation","Editor A","","","2026-11-01","awaiting review","1","","Practice approval required"
+"contact","/contact","Contact information","Editor A","Reviewer A","2026-10-01","2027-01-01","approved","1","1","Approved contact record"

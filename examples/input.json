@@ -1,0 +1,84 @@
+{
+  "practice": "Example Legal / fictional practice",
+  "asOf": "2026-10-23",
+  "pages": [
+    {
+      "page_id": "practice-a",
+      "url": "/practice-a",
+      "content_type": "Practice area",
+      "owner": "Editor A",
+      "reviewer": "Reviewer A",
+      "last_reviewed": "2026-08-01",
+      "next_review_due": "2026-10-01",
+      "status": "approved",
+      "content_version": "2",
+      "reviewed_version": "2",
+      "source_note": "Approved scope notes"
+    },
+    {
+      "page_id": "practice-b",
+      "url": "/practice-b",
+      "content_type": "Practice area",
+      "owner": "Editor B",
+      "reviewer": "Reviewer B",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "3",
+      "reviewed_version": "2",
+      "source_note": "Changed content needs review"
+    },
+    {
+      "page_id": "person-a",
+      "url": "/people/a",
+      "content_type": "Team profile",
+      "owner": "Editor A",
+      "reviewer": "",
+      "last_reviewed": null,
+      "next_review_due": null,
+      "status": "draft",
+      "content_version": "1",
+      "reviewed_version": null,
+      "source_note": "Synthetic profile"
+    },
+    {
+      "page_id": "person-b",
+      "url": "/people/b",
+      "content_type": "Team profile",
+      "owner": "Editor B",
+      "reviewer": "Reviewer B",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "1",
+      "reviewed_version": "1",
+      "source_note": "Synthetic profile"
+    },
+    {
+      "page_id": "fees",
+      "url": "/fees",
+      "content_type": "Fee explanation",
+      "owner": "Editor A",
+      "reviewer": "",
+      "last_reviewed": null,
+      "next_review_due": "2026-11-01",
+      "status": "awaiting review",
+      "content_version": "1",
+      "reviewed_version": null,
+      "source_note": "Practice approval required"
+    },
+    {
+      "page_id": "contact",
+      "url": "/contact",
+      "content_type": "Contact information",
+      "owner": "Editor A",
+      "reviewer": "Reviewer A",
+      "last_reviewed": "2026-10-01",
+      "next_review_due": "2027-01-01",
+      "status": "approved",
+      "content_version": "1",
+      "reviewed_version": "1",
+      "source_note": "Approved contact record"
+    }
+  ]
+}
